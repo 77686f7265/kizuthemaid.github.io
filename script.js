@@ -73,3 +73,10 @@ function crashMe(){
         txt = txt += "a";    
     }
 }
+
+function encrypt(){
+    var txtToEncrypt = document.getElementById("txt-to-encrypt").value;
+    
+    var md5 = $.md5(txtToEncrypt);
+    document.getElementById("encrypted-txt").value = md5;
+}

@@ -1,10 +1,39 @@
-
+*{
+    padding: 0;
+    margin: 0;
+}
+html, body{
+    height: 100%;
+}
 #js-sandbox{
     width: 50%;
     margin: auto;
-    
+    height: 100%;
+    border-left: 3px #000000 groove;
+    border-right: 3px #000000 groove;
+    border-top: 3px #000000 groove;
+
 }
 .buttons{
     text-align: center;
+    
 }
+img{
+    width: 20%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.md5-encrypt{
+    margin: 20px;
+    float: left;
+    width: 50vw;   
+      
+}
+
+.js-content{
+    margin: 20px;
+}
+
 
