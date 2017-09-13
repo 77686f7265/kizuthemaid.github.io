@@ -40,7 +40,7 @@
     margin: auto;
     padding-top: 3%;
     text-align: center;
-    padding: 12%;
+    padding: 8%;
 }
 #avatar{
     border-radius: 50%;
@@ -62,4 +62,13 @@
     width: 30%;
     display: block;
     margin: auto;
+}
+pre{
+    background-color: #EEE;
+    border-radius: 3px;
+    font-size: 12px;
+}
+.info{
+    margin-top: 80px;
+    padding: 5%;
 }
