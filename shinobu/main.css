@@ -56,13 +56,9 @@
 
 }
 .main .actual-text{
-    padding: 50px;
+    padding: 60px;
 }
-#swift{
-    width: 30%;
-    display: block;
-    margin: auto;
-}
+
 pre{
     background-color: #EEE;
     border-radius: 3px;
