@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.topnav {
+    
+    overflow: hidden;
+    position: relative;
+    width: 100vw;
+    z-index: 1;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+
+    display: inline-block;
+    color: #21211F;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 0 auto;
+    float: right;
+}
+#brand{
+    color: #EED658;
+    font-weight: 900;
+    float: left;
+}
+#brand:hover{
+    background-color: white;
+
+}
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #EED658;
+    color: #f0f0f0;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#avatar{
+    width: 45%;
+    margin: auto;
+    display: block;
+    margin-top: 60px;
+    border-radius: 50%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #EED658;
+}
+#description{
+    margin-top: 20px;
+    text-align: center;
+
+}
+#donuts{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+.buttons{
+    text-align: center;
+    margin-top: 10px;
+}
+.buttons button{
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    
+    color: #EED658;
+    font-size: 17px;
+    background: #ffffff;
+    padding: 10px 20px 10px 20px;
+    border: solid #EED658 2px;
+    text-decoration: none;
+}
+.buttons button:hover{
+background-color: #F4EDED;
+
+}
+ #intro-bot{
+     margin-top: 60px;
+     
+     
+ }
+#swift{
+    margin-top: 40px;
+}
+#source{
+    margin-top: 40px;
+}
