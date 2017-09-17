@@ -116,3 +116,10 @@ background-color: #F4EDED;
     color: #EED658;
     margin-top: 40px;
 }
+#changelog-title{
+    margin-top: 40px;
+    color: #EED658;
+}
+pre{
+    margin-top: 40px;
+}
