@@ -120,6 +120,9 @@ background-color: #F4EDED;
     margin-top: 40px;
     color: #EED658;
 }
-pre{
-    margin-top: 40px;
+#changelog-p{
+    margin-top: 60px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #DDDDDD;
 }
